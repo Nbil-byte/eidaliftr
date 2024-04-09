@@ -238,7 +238,7 @@ const addRocket = function () {
 
 // Function to create a star element
 // Function to create a star element
-function createStar() {
+const createStar = function () {
     const star = document.createElement('div');
     star.classList.add('star');
     document.body.appendChild(star);
